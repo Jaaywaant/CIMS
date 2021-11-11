@@ -1,0 +1,65 @@
+@import "var";
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: $ff-primary;
+	background-color: $accent;
+	color: $light;
+	width: 25%;
+	height: calc(100vh - 4rem);
+	padding: 2rem;
+	.user {
+		.name {
+			font-size: 3.5rem;
+			font-weight: 800;
+		}
+		.mis {
+			font-size: 1.5rem;
+		}
+	}
+	.nav-links {
+		height: 45%;
+		ul {
+			height: 100%;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			.active {
+				background-color: lighten($accent, 10%);
+			}
+			li {
+				cursor: pointer;
+				padding: 1rem 2rem;
+				font-size: 1.75rem;
+				border-radius: $br-sm;
+				&:hover {
+					background-color: lighten($accent, 10%);
+				}
+			}
+		}
+	}
+	.logo {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		img {
+			width: 60%;
+		}
+		button {
+			cursor: pointer;
+			font-size: 1rem;
+			font-weight: 700;
+			border: none;
+			border-radius: $br-sm;
+			background-color: $danger;
+			color: $light;
+			padding: 0.75rem 1.5rem;
+			margin-bottom: 0.4rem;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+@import "var";
+
+main {
+	font-family: $ff-primary;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	.content {
+		width: calc(75% - 12rem);
+		padding: 4rem 6rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+}
