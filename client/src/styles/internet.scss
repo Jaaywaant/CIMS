@@ -1,0 +1,116 @@
+@import "var";
+
+.info-text {
+	font-family: $ff-primary;
+
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1.5;
+	margin-bottom: 2rem;
+}
+.wip {
+	font-size: 5rem;
+	color: $accent;
+	font-weight: 800;
+}
+.auth-card,
+.att-card,
+.io-card {
+	font-family: $ff-primary;
+
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.card {
+		width: 40%;
+		background: $light;
+		padding: 3rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border-radius: $br-md;
+		box-shadow: -1px 4px 16px 2px rgba(0, 0, 0, 0.26);
+		-webkit-box-shadow: -1px 4px 16px 2px rgba(0, 0, 0, 0.26);
+		-moz-box-shadow: -1px 4px 16px 2px rgba(0, 0, 0, 0.26);
+		form {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			.error {
+				margin-top: -0.75rem;
+				color: $danger;
+				font-size: 0.75rem;
+				font-weight: 700;
+			}
+			label {
+				span {
+					display: block;
+					font-size: 1.25rem;
+					font-weight: 700;
+					margin-top: 0.5rem;
+				}
+				input {
+					margin: 0.5rem 0 1rem 0;
+					width: 85%;
+					font-size: 1.5rem;
+					font-family: $ff-primary;
+					padding: 1rem 2rem;
+					border: 3px ridge $dark;
+					border-radius: $br-sm;
+					font-weight: 600;
+					transition: border 300ms ease;
+					&:focus {
+						outline: none;
+						border: 3px ridge $accent;
+					}
+				}
+			}
+			.submit {
+				margin-top: 1rem;
+				font-size: 1.5rem;
+				font-family: $ff-primary;
+				font-weight: 800;
+				color: $light;
+				background-color: $accent;
+				padding: 1rem 2rem;
+				border-radius: $br-sm;
+				border: none;
+				cursor: pointer;
+			}
+			#disabled {
+				background-color: rgb(148, 148, 148);
+			}
+			#submit-danger {
+				background-color: $danger !important;
+			}
+			#submit-success {
+				background-color: $success !important;
+			}
+			#submit-warning {
+				background-color: $warning !important;
+				color: $dark !important;
+			}
+		}
+		.badge {
+			margin-top: 1.5rem;
+			width: fit-content;
+			font-size: 0.85rem;
+			font-weight: 800;
+			border-radius: $br-pill;
+			padding: 0.5rem 1rem;
+			color: $light;
+		}
+		.success {
+			background-color: $success;
+		}
+		.danger {
+			background-color: $danger;
+		}
+		.warning {
+			background-color: $warning;
+			color: $dark;
+		}
+	}
+}
