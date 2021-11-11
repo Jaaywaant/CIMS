@@ -8,3 +8,4 @@ Overview -
   
 Functionalities -
   To faciliate internet access,attendance system, campus IN/OUT ,library management in the institutions.
+
