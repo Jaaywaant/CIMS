@@ -39,6 +39,12 @@ CIMS (**"College Information Management System"**) is platform which faciliate I
 
 <p>&nbsp;</p>
 
+
+6. Database 
+<img src="https://user-images.githubusercontent.com/54065959/141608734-bf0a3ae9-5951-440e-a6e3-09a68d3eb2f4.png" width=600>
+
+<p>&nbsp;</p>
+
 ## CONCLUSION
 - We intend to build an information management system to manage the college information more efficiently.
 - We can implement similar system for faculties and create and entire cloud based environment in the college.
