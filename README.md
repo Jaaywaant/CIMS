@@ -41,9 +41,11 @@ CIMS (**"College Information Management System"**) is platform which faciliate I
 
 
 6. CIMS's Dashboard
-<img src="https://user-images.githubusercontent.com/54065959/141608777-e3f0a050-a9be-4bda-a509-0e07713d1817.png" width=600> 
-<img src="https://user-images.githubusercontent.com/54065959/141608781-6fd614ec-d228-4eb9-b1f8-82abea506bef.png" width=600> 
-<img src="https://user-images.githubusercontent.com/54065959/141608788-a9674309-f41d-4b8e-baa0-1c63c9fdff9a.png" width=600>
+<img src="https://user-images.githubusercontent.com/54065959/141608987-07084ae5-935f-4646-a411-157c211cde7b.png" width=600> 
+
+<img src="https://user-images.githubusercontent.com/54065959/141608997-97e25dab-babb-4828-a16b-24366b2c471c.png" width=600> 
+
+<img src="https://user-images.githubusercontent.com/54065959/141609002-a16cc2b3-10e5-402d-b763-7ceec1846da1.png" width=600>
 
 <p>&nbsp;</p>
 
